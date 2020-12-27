@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font: 16px/1.6 'Microsoft Yahei';
+}
+body, p, h1, h2, h3, h4, ul, ol, dl, dt, dd, figure,fieldset,legend, button, input {
+  margin: 0;
+  padding: 0;
+}
+ul, ol {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+address {
+  font-style: normal;
+}
+table {
+  /* table-layout: fixed; */
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+mark {
+  background-color: transparent;
+}
+textarea {
+  resize: none;
+}
+progress {
+  border: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+input, button:focus {
+  outline: 0;
+}
